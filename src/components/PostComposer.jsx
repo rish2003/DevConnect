@@ -12,6 +12,10 @@ function PostComposer({ onPost }) {
 
   const handlePost = () => {
     if (postText.trim === "") return;
+    if (postText.length < 1) {
+      alert("Please Write Something");
+      return;
+    }
     // savedPosts.push(postText);
     onPost(postText);
     setPostText("");

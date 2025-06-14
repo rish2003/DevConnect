@@ -2,6 +2,7 @@
 import PostComposer from "./components/PostComposer";
 import Dashboard from "./components/Dashboard";
 import PostFeed from "./components/PostFeed";
+import RandomUserList from "./components/RandomUserList";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </h1>
       <Dashboard />
       <PostFeed />
+      <RandomUserList />
     </div>
   );
 }

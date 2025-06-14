@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rishabh Raj",
+      "bio": "PR & Management Lead @ GDG",
+      "techStack": ["React", "Node.js", "MongoDB"]
+    },
+    {
+      "id": 2,
+      "name": "Aditi Mehra",
+      "bio": "Frontend Dev & UI Designer",
+      "techStack": ["Vue", "TailwindCSS", "Figma"]
+    },
+    {
+      "id": 3,
+      "name": "Kunal Sharma",
+      "bio": "Backend Engineer | DevOps Learner",
+      "techStack": ["Go", "Docker", "Kubernetes"]
+    }
+  ]
+}
