@@ -26,11 +26,13 @@ function Dashboard() {
   const [followedUsers, setfollowedUsers] = useState([]);
 
   const toggleFollow = (userId) => {
-    setfollowedUsers((prev) =>
-      prev.includes(userId)
-        ? prev.filter((id) => id !== userId)
-        : [...prev, userId]
-    );
+    setfollowedUsers((prev) => {
+      if (prev.includes(userId)) {
+        return prev.filter((id) => id !== userId);
+      } else {
+        return [...prev, userId];
+      }
+    });
   };
 
   return (
